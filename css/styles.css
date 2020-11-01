@@ -10,16 +10,32 @@
 }
 
 .far{
-   font-size: 320px;
-}
-
-.heart{
-   position: relative;
+   font-size: 300px;
 }
 
 .love{
    font-size: 25px;
-   position: absolute;
-   top: 45%;
-   left: 20%;
+   position: relative;
+   bottom: 0;
+   
+}
+
+.desactive{
+   display: none;
+}
+
+.max{
+   width: 100%;
+   text-align: center;
+}
+
+.active{
+   background-color: #222;
+   display: flex;
+   position: relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 5;
 }
