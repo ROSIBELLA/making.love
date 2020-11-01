@@ -8,3 +8,18 @@
    width: 100%;
    height: 100%;
 }
+
+.far{
+   font-size: 320px;
+}
+
+.heart{
+   position: relative;
+}
+
+.love{
+   font-size: 25px;
+   position: absolute;
+   top: 45%;
+   left: 20%;
+}
